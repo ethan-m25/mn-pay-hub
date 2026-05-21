@@ -1,0 +1,168 @@
+{
+  "generated": "2026-05-20",
+  "categories": {
+    "Other": {
+      "cat_median": 135000,
+      "n_jobs": 29,
+      "skills": [
+        {
+          "skill": "compliance",
+          "median": 241250,
+          "n": 2,
+          "dev": 78.7
+        },
+        {
+          "skill": "legal",
+          "median": 229600,
+          "n": 2,
+          "dev": 70.1
+        },
+        {
+          "skill": "sales",
+          "median": 183750,
+          "n": 2,
+          "dev": 36.1
+        }
+      ]
+    },
+    "Management": {
+      "cat_median": 172500,
+      "n_jobs": 24,
+      "skills": [
+        {
+          "skill": "security",
+          "median": 303250,
+          "n": 2,
+          "dev": 75.8
+        },
+        {
+          "skill": "sales",
+          "median": 303250,
+          "n": 2,
+          "dev": 75.8
+        },
+        {
+          "skill": "strategic_planning",
+          "median": 269500,
+          "n": 2,
+          "dev": 56.2
+        },
+        {
+          "skill": "team leadership",
+          "median": 144000,
+          "n": 2,
+          "dev": -16.5
+        }
+      ]
+    },
+    "Marketing": {
+      "cat_median": 129500,
+      "n_jobs": 5,
+      "skills": []
+    },
+    "Finance": {
+      "cat_median": 161688,
+      "n_jobs": 4,
+      "skills": [
+        {
+          "skill": "cross-functional collaboration",
+          "median": 144912,
+          "n": 2,
+          "dev": -10.4
+        }
+      ]
+    },
+    "Engineering": {
+      "cat_median": 223092,
+      "n_jobs": 32,
+      "skills": [
+        {
+          "skill": "typescript",
+          "median": 283000,
+          "n": 5,
+          "dev": 26.9
+        },
+        {
+          "skill": "mentorship",
+          "median": 280750,
+          "n": 2,
+          "dev": 25.8
+        },
+        {
+          "skill": "technical leadership",
+          "median": 243500,
+          "n": 3,
+          "dev": 9.1
+        },
+        {
+          "skill": "cloud_infrastructure",
+          "median": 227250,
+          "n": 2,
+          "dev": 1.9
+        },
+        {
+          "skill": "distributed_systems",
+          "median": 227250,
+          "n": 2,
+          "dev": 1.9
+        },
+        {
+          "skill": "react",
+          "median": 213750,
+          "n": 2,
+          "dev": -4.2
+        },
+        {
+          "skill": "automation",
+          "median": 167250,
+          "n": 2,
+          "dev": -25.0
+        }
+      ]
+    },
+    "Data & Analytics": {
+      "cat_median": 116500,
+      "n_jobs": 10,
+      "skills": []
+    },
+    "Operations": {
+      "cat_median": 173150,
+      "n_jobs": 8,
+      "skills": [
+        {
+          "skill": "automation",
+          "median": 201500,
+          "n": 3,
+          "dev": 16.4
+        }
+      ]
+    },
+    "Security": {
+      "cat_median": 443000,
+      "n_jobs": 1,
+      "skills": []
+    },
+    "Product": {
+      "cat_median": 225500,
+      "n_jobs": 14,
+      "skills": [
+        {
+          "skill": "product_management",
+          "median": 225250,
+          "n": 2,
+          "dev": -0.1
+        }
+      ]
+    },
+    "People & HR": {
+      "cat_median": 120000,
+      "n_jobs": 6,
+      "skills": []
+    },
+    "Design": {
+      "cat_median": 158000,
+      "n_jobs": 3,
+      "skills": []
+    }
+  }
+}
