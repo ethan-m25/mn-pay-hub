@@ -25,7 +25,7 @@ from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
 from _common import (
-    make_logger, acquire_lock, exa_search, load_existing_keys, write_job,
+    make_logger, acquire_lock, exa_search, load_existing_keys, load_existing_urls, write_job,
     TODAY, OUTPUT_FILE,
 )
 
@@ -40,36 +40,18 @@ log = make_logger(LOG_FILE)
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
 # ── Seed tenants ─────────────────────────────────────────────────────────────
-SEED_TENANTS = [
-    ("uhg.wd5.myworkdayjobs.com", "uhg", "External", "UnitedHealth Group"),
-    ("target.wd5.myworkdayjobs.com", "target", "External", "Target"),
-    ("bestbuy.wd5.myworkdayjobs.com", "bestbuy", "External", "Best Buy"),
-    ("mmm.wd1.myworkdayjobs.com", "mmm", "External", "3M"),
-    ("generalmills.wd5.myworkdayjobs.com", "generalmills", "External", "General Mills"),
-    ("medtronic.wd5.myworkdayjobs.com", "medtronic", "External", "Medtronic"),
-    ("usbank.wd5.myworkdayjobs.com", "usbank", "External", "U.S. Bank"),
-    ("ecolab.wd5.myworkdayjobs.com", "ecolab", "External", "Ecolab"),
-    ("ameriprise.wd5.myworkdayjobs.com", "ameriprise", "External", "Ameriprise Financial"),
-    ("xcelenergy.wd5.myworkdayjobs.com", "xcelenergy", "XcelEnergy", "Xcel Energy"),
-    ("deloitte.wd1.myworkdayjobs.com", "deloitte", "ExternalCareers", "Deloitte"),
-    ("accenture.wd3.myworkdayjobs.com", "accenture", "AccentureCareers", "Accenture"),
-    ("pwc.wd3.myworkdayjobs.com", "pwc", "Global_Experienced_Careers", "PwC"),
-    ("ibm.wd12.myworkdayjobs.com", "ibm", "ExternalSite", "IBM"),
-]
+# === Phase 4 seed loader (added 2026-05-27) ===
+sys.path.insert(0, os.path.expanduser('~/shared-scripts'))
+from hub_employer_seeds import load_workday_seeds
+SEED_TENANTS = load_workday_seeds('mn')
 
 KNOWN_COMPANY_OVERRIDES = {
-    "uhg": "UnitedHealth Group",
     "target": "Target",
-    "bestbuy": "Best Buy",
-    "mmm": "3M",
-    "generalmills": "General Mills",
+    "3m": "3M",
     "medtronic": "Medtronic",
     "usbank": "U.S. Bank",
-    "ecolab": "Ecolab",
     "ameriprise": "Ameriprise Financial",
     "xcelenergy": "Xcel Energy",
-    "deloitte": "Deloitte",
-    "accenture": "Accenture",
     "pwc": "PwC",
 }
 
@@ -622,6 +604,7 @@ def main():
 
     existing_keys = load_existing_keys()
     seen_keys = set(existing_keys)
+    seen_urls = load_existing_urls()
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     total_found = 0
@@ -699,6 +682,9 @@ def main():
             location = parse_location(locations, ext_path)
             source_url = f"https://{host}/en-US/{tenant}{ext_path}"
 
+            if source_url in seen_urls:
+                continue
+
             # Resolve display company name: HTML JSON-LD > tenant-derived name
             resolved_company = extract_company_from_html(text) or company_name
             if resolved_company != company_name:
@@ -721,6 +707,7 @@ def main():
             }
 
             seen_keys.add(key)
+            seen_urls.add(source_url)
             write_job(OUTPUT_FILE, job)
             total_found += 1
             log(f"    → FOUND: ${val_min:,}–${val_max:,} [{location}]")
