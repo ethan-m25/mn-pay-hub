@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-06-01T12:13:14.051278+00:00",
-    "total_jobs": 1074,
-    "enriched": 495
+    "built_at": "2026-06-03T11:38:29.066655+00:00",
+    "total_jobs": 1138,
+    "enriched": 499
   },
   "jobs": {
     "assistant-general-co-mcs-solutions-28696133": {
@@ -8959,29 +8959,6 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
-    "head-of-customer-ai--asana-67403655": {
-      "summary": "Operational leader for Asana’s AI Transformation Factory, evolving customer success teams to drive AI product adoption and revenue growth through cross-functional change and ROI validation.",
-      "key_skills": [
-        "ai",
-        "customer",
-        "transformation",
-        "product",
-        "engineering",
-        "revenue",
-        "customer_success",
-        "renewal"
-      ],
-      "core_skills": [
-        "leadership",
-        "strategic_planning",
-        "cross_functional",
-        "operationalization"
-      ],
-      "seniority_signal": "executive",
-      "role_type": "executive",
-      "red_flags": [],
-      "work_mode_derived": "remote"
-    },
     "team-lead--market-op-carvana-67403655": {
       "summary": "Team Lead manages local Carvana hub operations including market launches, logistics, customer branding, and team engagement while ensuring high customer satisfaction and operational efficiency.",
       "key_skills": [
@@ -9397,29 +9374,6 @@
         "data"
       ],
       "seniority_signal": "senior",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "remote"
-    },
-    "customer-support-ass-betterment-67403656": {
-      "summary": "This person works on data analysis and machine learning models to improve financial products and services.",
-      "key_skills": [
-        "python",
-        "data_analysis",
-        "machine_learning",
-        "statistics",
-        "sql",
-        "data_science",
-        "big_data",
-        "cloud_computing"
-      ],
-      "core_skills": [
-        "data_analysis",
-        "machine_learning",
-        "statistics",
-        "sql"
-      ],
-      "seniority_signal": "mid",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
@@ -10691,6 +10645,126 @@
         "specifications writing",
         "shop drawings review",
         "equipment research"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-ciam-software-affirm-12777098": {
+      "summary": "Builds and operates backend services for customer identity and authentication, ensuring security and reliability across B2C and B2B platforms.",
+      "key_skills": [
+        "python",
+        "kotlin",
+        "oauth2",
+        "oidc",
+        "saml",
+        "scim",
+        "ci/cd",
+        "infrastructure-as-code"
+      ],
+      "core_skills": [
+        "ciam",
+        "distributed-systems",
+        "security-fundamentals"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-pre----post-s-pendo-12777098": {
+      "summary": "Senior Customer Engineer owns strategic and complex Enterprise accounts across acquisition, implementation, adoption, expansion, and escalation, leading technical strategy for deployments, resolving ambiguous challenges, and partnering with account teams to drive retention and expansion.",
+      "key_skills": [
+        "customer engineering",
+        "technical strategy",
+        "enterprise accounts",
+        "implementation playbooks",
+        "technical escalation",
+        "adoption expansion",
+        "team capability building",
+        "ai tools"
+      ],
+      "core_skills": [
+        "customer engineering",
+        "technical strategy",
+        "enterprise accounts",
+        "implementation playbooks"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "clinical-testing-psy-lifestance-12777098": {
+      "summary": "Psychologist provides outpatient mental healthcare services to patients in a hybrid work model with flexible scheduling.",
+      "key_skills": [
+        "psychology",
+        "clinical",
+        "behavioral",
+        "healthcare"
+      ],
+      "core_skills": [
+        "clinical",
+        "psychology"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "licensed-marriage-an-lifestance-12777098": {
+      "summary": "Therapist providing mental health services to patients in a hybrid work model with flexible scheduling and no hospital calls or weekends.",
+      "key_skills": [
+        "therapist",
+        "mental_health",
+        "behavioral_health"
+      ],
+      "core_skills": [
+        "clinical_excellence"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "civil-engineering-te-tkda-84296318": {
+      "summary": "CAD designer who develops highway, interchange, roundabout, and roadway features designs in coordination with traffic, utility, and water resource engineering teams",
+      "key_skills": [
+        "cad",
+        "civil engineering",
+        "roadway design",
+        "auto cad",
+        "civil 3d",
+        "microstation",
+        "ord"
+      ],
+      "core_skills": [
+        "civil engineering",
+        "roadway design"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-registered-pr-tkda-84296318": {
+      "summary": "Guides technical design delivery for complex highway projects, establishes design standards, leads project teams, and mentors engineers.",
+      "key_skills": [
+        "geometric design",
+        "corridor modeling",
+        "plan development",
+        "highway design",
+        "technical design",
+        "roadway design",
+        "municipal engineering",
+        "traffic engineering"
+      ],
+      "core_skills": [
+        "technical design delivery",
+        "design standards",
+        "project coordination",
+        "mentorship"
       ],
       "seniority_signal": "senior",
       "role_type": "ic",
