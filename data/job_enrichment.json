@@ -1,7 +1,7 @@
 {
   "meta": {
-    "built_at": "2026-06-03T11:38:29.066655+00:00",
-    "total_jobs": 1138,
+    "built_at": "2026-06-04T09:56:35.796322+00:00",
+    "total_jobs": 1180,
     "enriched": 499
   },
   "jobs": {
@@ -10673,29 +10673,6 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
-    "senior-pre----post-s-pendo-12777098": {
-      "summary": "Senior Customer Engineer owns strategic and complex Enterprise accounts across acquisition, implementation, adoption, expansion, and escalation, leading technical strategy for deployments, resolving ambiguous challenges, and partnering with account teams to drive retention and expansion.",
-      "key_skills": [
-        "customer engineering",
-        "technical strategy",
-        "enterprise accounts",
-        "implementation playbooks",
-        "technical escalation",
-        "adoption expansion",
-        "team capability building",
-        "ai tools"
-      ],
-      "core_skills": [
-        "customer engineering",
-        "technical strategy",
-        "enterprise accounts",
-        "implementation playbooks"
-      ],
-      "seniority_signal": "senior",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "remote"
-    },
     "clinical-testing-psy-lifestance-12777098": {
       "summary": "Psychologist provides outpatient mental healthcare services to patients in a hybrid work model with flexible scheduling.",
       "key_skills": [
@@ -10770,6 +10747,29 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "senior-pre----post-s-pendo-66282547": {
+      "summary": "Senior Customer Engineer owns strategic and complex Enterprise accounts across acquisition, implementation, adoption, expansion, and escalation, leading technical strategy for deployments, resolving ambiguous challenges, and partnering with account teams to drive retention and expansion.",
+      "key_skills": [
+        "customer engineering",
+        "technical strategy",
+        "enterprise accounts",
+        "implementation playbooks",
+        "technical escalation",
+        "adoption expansion",
+        "team capability building",
+        "ai tools"
+      ],
+      "core_skills": [
+        "customer engineering",
+        "technical strategy",
+        "enterprise accounts",
+        "implementation playbooks"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     }
   }
 }
