@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-06-04T09:56:35.796322+00:00",
-    "total_jobs": 1180,
-    "enriched": 499
+    "built_at": "2026-06-05T09:51:28.058257+00:00",
+    "total_jobs": 1228,
+    "enriched": 501
   },
   "jobs": {
     "assistant-general-co-mcs-solutions-28696133": {
@@ -9850,6 +9850,28 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "senior-product-manag-oneapp-67403657": {
+      "summary": "Owns the credit card product roadmap, defines features and user experience, and drives product decisions using AI and cardholder data to improve customer retention and growth.",
+      "key_skills": [
+        "fintech",
+        "product_management",
+        "ai",
+        "credit_cards",
+        "rewards_programs",
+        "customer_ltv",
+        "interchange"
+      ],
+      "core_skills": [
+        "product_ownership",
+        "cross_functional_collaboration",
+        "metrics_driven",
+        "fintech_background"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "social-producer-cont-oneapp-67403657": {
       "summary": "Social Producer/Content Specialist creates and manages high-volume social-first content across TikTok, Instagram, Threads, LinkedIn, and YouTube while monitoring trends and optimizing performance for real-time engagement.",
       "key_skills": [
@@ -9869,6 +9891,29 @@
         "social-first storytelling"
       ],
       "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "staff-applied-scient-oneapp-67403657": {
+      "summary": "Designs and deploys machine learning and deep learning models to improve customer experience and business growth through personalization and recommendation systems.",
+      "key_skills": [
+        "machine learning",
+        "deep learning",
+        "llm",
+        "recommendation systems",
+        "search systems",
+        "productionizing models",
+        "ai",
+        "data science"
+      ],
+      "core_skills": [
+        "machine learning",
+        "deep learning",
+        "llm",
+        "recommendation systems"
+      ],
+      "seniority_signal": "senior",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
@@ -10288,6 +10333,29 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "unknown"
+    },
+    "principal-cloud-infr-aeratechnology-53580161": {
+      "summary": "Architects and scales enterprise-grade AKS clusters for high concurrency, real-time AI inference, and multi-cloud infrastructure while ensuring scalability, reliability, and security of the platform.",
+      "key_skills": [
+        "kubernetes",
+        "azure",
+        "argo cd",
+        "crossplane",
+        "python",
+        "terraform",
+        "gitops",
+        "observability"
+      ],
+      "core_skills": [
+        "kubernetes",
+        "azure",
+        "gitops",
+        "observability"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "senior-software-engi-aeratechnology-53580161": {
       "summary": "Senior Software Engineer specializing in building a high-performance Java-based OLAP engine for decision intelligence platforms, focusing on low-latency calculations and correctness.",
@@ -10747,29 +10815,6 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
-    },
-    "senior-pre----post-s-pendo-66282547": {
-      "summary": "Senior Customer Engineer owns strategic and complex Enterprise accounts across acquisition, implementation, adoption, expansion, and escalation, leading technical strategy for deployments, resolving ambiguous challenges, and partnering with account teams to drive retention and expansion.",
-      "key_skills": [
-        "customer engineering",
-        "technical strategy",
-        "enterprise accounts",
-        "implementation playbooks",
-        "technical escalation",
-        "adoption expansion",
-        "team capability building",
-        "ai tools"
-      ],
-      "core_skills": [
-        "customer engineering",
-        "technical strategy",
-        "enterprise accounts",
-        "implementation playbooks"
-      ],
-      "seniority_signal": "senior",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "remote"
     }
   }
 }
