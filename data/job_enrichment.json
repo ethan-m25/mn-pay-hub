@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-06-05T09:51:28.058257+00:00",
-    "total_jobs": 1228,
-    "enriched": 501
+    "built_at": "2026-06-06T09:44:36.494503+00:00",
+    "total_jobs": 1253,
+    "enriched": 502
   },
   "jobs": {
     "assistant-general-co-mcs-solutions-28696133": {
@@ -10469,6 +10469,24 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
+    },
+    "project-civil-engine-foth-53580161": {
+      "summary": "Project Civil Engineer supports solid waste projects through fieldwork and office-based engineering, preparing plans, reports, and permit applications while collaborating with clients, regulators, and project teams to deliver high-quality solutions.",
+      "key_skills": [
+        "civil engineering",
+        "solid waste projects",
+        "permitting",
+        "compliance",
+        "design"
+      ],
+      "core_skills": [
+        "civil engineering",
+        "solid waste projects"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     },
     "project-environmenta-foth-53580161": {
       "summary": "Project Environmental Engineer develops plans and specifications for solid waste projects, serves as engineer of record for municipal solid waste, demolition landfill waste, and transfer station facility construction, and collaborates with teams to ensure high-quality project delivery within scope/schedule/budget.",
