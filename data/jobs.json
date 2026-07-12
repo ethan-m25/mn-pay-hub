@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 2234,
-    "active": 1812,
-    "new_today": 25,
+    "count": 2231,
+    "active": 1809,
+    "new_today": 2,
     "links_newly_archived": 0,
-    "updated": "2026-07-11T03:44:29Z",
+    "updated": "2026-07-12T03:43:51Z",
     "state": "Minnesota",
     "law": "⚖️ MN Stat. §181.173 (2025)",
     "currency": "USD",
@@ -73279,6 +73279,32 @@
       "last_seen": "2026-07-10",
       "location_display": "Statewide (MN)",
       "location_city": ""
+    },
+    {
+      "role": "Sr Inventory Ops Analyst Project SSA Food and Beverage (Hybrid)",
+      "company": "Target Enterprise Inc",
+      "min": 73000,
+      "max": 132000,
+      "location": "Minneapolis, MN",
+      "source_url": "https://target.wd5.myworkdayjobs.com/en-US/TargetCareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Sr-Inventory-Ops-Analyst-Project-SSA-Food-and-Beverage--Hybrid-_R0000445291",
+      "posted": "2026-07-11",
+      "currency": "USD",
+      "region": "MN",
+      "_width": 59000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Data & Analytics",
+      "work_mode": "hybrid",
+      "salary_type": "annual",
+      "id": "sr-inventory-ops-ana-target-enterpri-27831890",
+      "status": "active",
+      "date_added": "2026-07-11",
+      "scraped": "2026-07-11",
+      "last_seen": "2026-07-11",
+      "location_display": "Minneapolis, MN",
+      "location_city": "Minneapolis"
     }
   ]
 }
