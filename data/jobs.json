@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 4079,
-    "active": 2876,
-    "new_today": 38,
+    "count": 4080,
+    "active": 2877,
+    "new_today": 1,
     "links_newly_archived": 0,
-    "updated": "2026-09-19T03:48:41Z",
+    "updated": "2026-09-20T03:46:48Z",
     "state": "Minnesota",
     "law": "⚖️ MN Stat. §181.173 (2025)",
     "currency": "USD",
@@ -123423,6 +123423,33 @@
       "scraped": "2026-09-18",
       "last_seen": "2026-09-18",
       "location_display": "Statewide (MN)",
+      "location_city": ""
+    },
+    {
+      "role": "Field Enablement Manager, SDR & Commercial",
+      "company": "Horizon3Ai",
+      "min": 115000,
+      "max": 150000,
+      "location": "Remote (Minnesota)",
+      "source_url": "https://jobs.ashbyhq.com/horizon3ai/e520b6a4-8831-4a5e-9d7b-02ef3f534fe2",
+      "posted": "2026-09-19",
+      "source_platform": "ashby",
+      "currency": "USD",
+      "region": "MN",
+      "_width": 35000,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Management",
+      "work_mode": "remote",
+      "salary_type": "annual",
+      "id": "field-enablement-man-horizon3ai-76008221",
+      "status": "active",
+      "date_added": "2026-09-19",
+      "scraped": "2026-09-19",
+      "last_seen": "2026-09-19",
+      "location_display": "Remote (MN)",
       "location_city": ""
     }
   ]
