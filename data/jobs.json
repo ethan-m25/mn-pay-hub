@@ -1,10 +1,10 @@
 {
   "meta": {
-    "count": 4955,
-    "active": 3595,
-    "new_today": 34,
+    "count": 4956,
+    "active": 3596,
+    "new_today": 1,
     "links_newly_archived": 0,
-    "updated": "2026-10-10T03:46:55Z",
+    "updated": "2026-10-11T03:44:54Z",
     "state": "Minnesota",
     "law": "⚖️ MN Stat. §181.173 (2025)",
     "currency": "USD",
@@ -146888,6 +146888,32 @@
       "scraped": "2026-10-09",
       "last_seen": "2026-10-09",
       "location_display": "Remote (MN)",
+      "location_city": ""
+    },
+    {
+      "role": "Senior Engineering Program Manager - PH - Rice Creek, MN",
+      "company": "MED Medtronic Inc",
+      "min": 171200,
+      "max": 256800,
+      "location": "Minnesota, MN",
+      "source_url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Fridley-Minnesota-United-States-of-America/Senior-Engineering-Program-Manager---PH---Rice-Creek--MN_R79526-1",
+      "posted": "2026-10-10",
+      "currency": "USD",
+      "region": "MN",
+      "_width": 85600,
+      "_compliant": true,
+      "_nonCompliant": false,
+      "_exempt": false,
+      "_federal": false,
+      "category": "Engineering",
+      "work_mode": "unknown",
+      "salary_type": "annual",
+      "id": "senior-engineering-p-med-medtronic-i-90294226",
+      "status": "active",
+      "date_added": "2026-10-10",
+      "scraped": "2026-10-10",
+      "last_seen": "2026-10-10",
+      "location_display": "Statewide (MN)",
       "location_city": ""
     }
   ]
